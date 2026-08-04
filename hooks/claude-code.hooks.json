@@ -1,0 +1,37 @@
+{
+  "hooks": {
+    "PreCompact": [
+      {
+        "matcher": "auto",
+        "hooks": [
+          {
+            "type": "prompt",
+            "prompt": "Compaction is about to run. Review this session: if files were changed or decisions were made but docs/planning (the worklog and any active initiative's work.md) does not reflect them yet, block with a short reason telling the agent exactly what to refresh first. If the planning docs are current, allow.",
+            "timeout": 30
+          }
+        ]
+      },
+      {
+        "matcher": "manual",
+        "hooks": [
+          {
+            "type": "prompt",
+            "prompt": "Compaction is about to run. Review this session: if files were changed or decisions were made but docs/planning (the worklog and any active initiative's work.md) does not reflect them yet, block with a short reason telling the agent exactly what to refresh first. If the planning docs are current, allow.",
+            "timeout": 30
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "prompt",
+            "prompt": "The agent wants to end its turn. If this turn changed files or made decisions and docs/planning (worklog, active initiative work.md) was not updated to match, block with the reason 'update docs/planning before finishing'. Otherwise allow — do not block turns that changed nothing durable.",
+            "timeout": 30
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "PreCompact": [
+    {
+      "matcher": "manual",
+      "hooks": [
+        {
+          "type": "command",
+          "command": "node -e \"console.log(JSON.stringify({continue:false,stopReason:'Planning docs first: refresh docs/planning (worklog + active work.md) to reflect this session, then run /compact again.'}))\"",
+          "timeout": 15
+        }
+      ]
+    }
+  ]
+}

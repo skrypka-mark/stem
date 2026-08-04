@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "hooks": {
+    "stop": [
+      {
+        "command": "node -e \"console.log(JSON.stringify({followup_message:'Before finishing: if this session changed files or made decisions, refresh docs/planning (worklog + active work.md) to match, then confirm done.'}))\"",
+        "timeout": 15,
+        "loop_limit": 1
+      }
+    ]
+  }
+}

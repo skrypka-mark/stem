@@ -1,0 +1,29 @@
+{
+  "name": "stem",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "packageManager": "pnpm@9.15.9",
+  "engines": {
+    "node": ">=22.12",
+    "pnpm": ">=9"
+  },
+  "scripts": {
+    "check": "node scripts/check.mjs",
+    "lint": "markdownlint-cli2 \"**/*.md\" \"!**/node_modules/**\"",
+    "format": "prettier --write \"**/*.{js,mjs,ts,json,astro,css}\" \"!**/node_modules/**\" \"!**/dist/**\"",
+    "format:check": "prettier --check \"**/*.{js,mjs,ts,json,astro,css}\" \"!**/node_modules/**\" \"!**/dist/**\"",
+    "build": "pnpm --filter site build",
+    "prepare": "husky || true"
+  },
+  "lint-staged": {
+    "*.md": "markdownlint-cli2",
+    "*.{js,mjs,ts,json,css}": "prettier --write"
+  },
+  "devDependencies": {
+    "husky": "^9.1.7",
+    "lint-staged": "^15.2.10",
+    "markdownlint-cli2": "^0.14.0",
+    "prettier": "^3.3.3"
+  }
+}

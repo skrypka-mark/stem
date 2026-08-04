@@ -1,0 +1,2 @@
+description = "Load the engineering discipline for this session"
+prompt = "Activate the stem skill and follow its working rules for the rest of this session. Confirm what is loaded in one line, then continue with: {{args}}"

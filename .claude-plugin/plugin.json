@@ -1,0 +1,13 @@
+{
+  "name": "stem",
+  "displayName": "stem.cooking",
+  "version": "0.1.0",
+  "description": "Engineering discipline for coding agents: size the work, keep every change on the record, verify against intent, never lose a session. stem.cooking",
+  "author": {
+    "name": "Mark Skrypka"
+  },
+  "homepage": "https://stem.cooking",
+  "repository": "https://github.com/markskrypka/stem",
+  "license": "Apache-2.0",
+  "hooks": "./hooks/claude-code.hooks.json"
+}

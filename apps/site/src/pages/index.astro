@@ -1,0 +1,21 @@
+---
+import { brand } from '../data/brand';
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<meta name="description" content={brand.tagline} />
+		<title>{brand.displayName}</title>
+	</head>
+	<body>
+		<main>
+			<h1>{brand.displayName}</h1>
+			<p>{brand.tagline}</p>
+			<p>Plan first, build clean, keep every change on the record.</p>
+		</main>
+	</body>
+</html>
