@@ -9,5 +9,6 @@
   "homepage": "https://stem.cooking",
   "repository": "https://github.com/markskrypka/stem",
   "license": "Apache-2.0",
+  "keywords": ["engineering", "discipline", "workflow", "planning", "worklog", "skills", "agents"],
   "hooks": "./hooks/claude-code.hooks.json"
 }

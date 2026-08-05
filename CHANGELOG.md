@@ -4,7 +4,7 @@ Release notes for distributed versions. The per-change journal lives in
 `docs/planning/worklog.md` — this file records what users get, version
 by version.
 
-## [0.1.0] — Unreleased
+## [0.1.0] — 2026-08-05
 
 First buildable version.
 
