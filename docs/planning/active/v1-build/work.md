@@ -22,7 +22,7 @@ task under the discipline. Blockers: none.
 
 ## Publication notes
 
-- [x] Remote created: github.com/markskrypka/stem; repository URL
+- [x] Remote created: github.com/skrypka-mark/stem; repository URL
       filled in plugin.json, marketplace.json, and the README install
       command.
 - [ ] Trademark-register check before any wider announcement.

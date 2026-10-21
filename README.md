@@ -36,7 +36,7 @@ framework you operate.
 ## Install
 
 ```sh
-npx skills add markskrypka/stem
+npx skills add skrypka-mark/stem
 ```
 
 installs the skill into every agent it detects (project scope by
@@ -66,7 +66,7 @@ Per-host extras, each optional:
   `.codex/agents/`; hooks: copy `hooks/codex.hooks.json` to
   `~/.codex/hooks.json` and approve once via `/hooks`.
 - **Gemini CLI** — one command carries skills and hooks together:
-  `gemini extensions install https://github.com/markskrypka/stem`.
+  `gemini extensions install https://github.com/skrypka-mark/stem`.
 
 ## What using it feels like
 

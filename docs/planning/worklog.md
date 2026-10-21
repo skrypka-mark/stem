@@ -3,6 +3,17 @@
 One entry per change, newest first. Format: date · type · title, then
 By / Why / How / Ref.
 
+## 2026-10-21 · fix · Point install paths at the skrypka-mark account
+
+By: Claude (Opus 5.5) for Mark Skrypka
+Why: the GitHub account moved from markskrypka back to skrypka-mark.
+The old name is now free to register, so anyone who claimed it could
+serve their own repo at the install path in the README.
+How: replaced markskrypka with skrypka-mark in the plugin and
+marketplace manifests, the README install commands, the hooks README,
+and the v1-build planning notes.
+Ref: this commit.
+
 ## 2026-08-05 · feat · V1: the stem skill, agents, hooks, site shell
 
 By: Mark Skrypka

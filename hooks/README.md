@@ -39,7 +39,7 @@ asking it to refresh planning docs if the session changed anything.
 ## Gemini CLI — `hooks.json` (reminder, via extension)
 
 Installed automatically when this repository is added as a Gemini
-extension (`gemini extensions install https://github.com/markskrypka/stem`):
+extension (`gemini extensions install https://github.com/skrypka-mark/stem`):
 the discipline is
 injected as context at session start. Gemini's pre-compression event is
 advisory-only by design, so no blocking is possible; the worklog habit

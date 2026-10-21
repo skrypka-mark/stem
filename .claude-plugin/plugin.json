@@ -7,7 +7,7 @@
     "name": "Mark Skrypka"
   },
   "homepage": "https://stem.cooking",
-  "repository": "https://github.com/markskrypka/stem",
+  "repository": "https://github.com/skrypka-mark/stem",
   "license": "Apache-2.0",
   "keywords": ["engineering", "discipline", "workflow", "planning", "worklog", "skills", "agents"],
   "hooks": "./hooks/claude-code.hooks.json"

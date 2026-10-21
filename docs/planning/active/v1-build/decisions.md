@@ -120,7 +120,7 @@ config into skills-installed folders.
 ## 2026-08-04 · The repository doubles as the Gemini extension
 
 `gemini-extension.json` at the root plus `hooks/hooks.json` means
-`gemini extensions install https://github.com/markskrypka/stem`
+`gemini extensions install https://github.com/skrypka-mark/stem`
 delivers skills and hooks in one command on that host. The extension
 bundles no agents for now: Gemini's agent format needs its own
 tool-name mapping and sits behind an experimental flag — deferred
