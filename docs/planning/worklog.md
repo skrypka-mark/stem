@@ -3,6 +3,23 @@
 One entry per change, newest first. Format: date · type · title, then
 By / Why / How / Ref.
 
+## 2026-11-20 · fix · Hooks check the project's own planning folder
+
+By: Claude (Opus 5.5) for Mark Skrypka
+Why: a project that keeps its planning docs somewhere other than
+`docs/planning/` (Jack uses `docs/stem/`, named in its stem block) was
+blocked at the end of every turn. The Stop prompt named `docs/planning`
+literally, so its evaluator kept refusing a current record. It also
+blocked over unfinished work and running background tasks, which isn't
+its job. Mark asked for the rules fixed once, in a small PR.
+How: every hook (Claude Code's prompts, Codex, Cursor, Gemini) now
+names the folder the stem block points to, `docs/planning/` by
+default. The prompts judge only the record and list what never blocks
+a turn on its own. SKILL.md says once that `docs/planning/` means that
+folder. The hooks README explains it. Version 0.1.1, with a CHANGELOG
+entry.
+Ref: branch mark/planning-path-hooks.
+
 ## 2026-10-21 · fix · Point install paths at the skrypka-mark account
 
 By: Claude (Opus 5.5) for Mark Skrypka

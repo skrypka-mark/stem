@@ -6,7 +6,7 @@
         "hooks": [
           {
             "type": "prompt",
-            "prompt": "Compaction is about to run. Review this session: if files were changed or decisions were made but docs/planning (the worklog and any active initiative's work.md) does not reflect them yet, block with a short reason telling the agent exactly what to refresh first. If the planning docs are current, allow.",
+            "prompt": "Compaction is about to run. Check one thing: whether the project's planning record reflects this session. The planning folder is docs/planning/, or the folder the stem block in CLAUDE.md or AGENTS.md names on its 'keep <folder> current' line. If files were changed or decisions were made but that folder's worklog and the active initiative's work.md don't reflect them, block with a short reason naming exactly what to refresh first. Otherwise allow. Judge only the record: never block because work is unfinished or background tasks are running, or because the folder has another name.",
             "timeout": 30
           }
         ]
@@ -16,7 +16,7 @@
         "hooks": [
           {
             "type": "prompt",
-            "prompt": "Compaction is about to run. Review this session: if files were changed or decisions were made but docs/planning (the worklog and any active initiative's work.md) does not reflect them yet, block with a short reason telling the agent exactly what to refresh first. If the planning docs are current, allow.",
+            "prompt": "Compaction is about to run. Check one thing: whether the project's planning record reflects this session. The planning folder is docs/planning/, or the folder the stem block in CLAUDE.md or AGENTS.md names on its 'keep <folder> current' line. If files were changed or decisions were made but that folder's worklog and the active initiative's work.md don't reflect them, block with a short reason naming exactly what to refresh first. Otherwise allow. Judge only the record: never block because work is unfinished or background tasks are running, or because the folder has another name.",
             "timeout": 30
           }
         ]
@@ -27,7 +27,7 @@
         "hooks": [
           {
             "type": "prompt",
-            "prompt": "The agent wants to end its turn. If this turn changed files or made decisions and docs/planning (worklog, active initiative work.md) was not updated to match, block with the reason 'update docs/planning before finishing'. Otherwise allow — do not block turns that changed nothing durable.",
+            "prompt": "The agent wants to end its turn. Check one thing: whether the project's planning record matches this turn. The planning folder is docs/planning/, or the folder the stem block in CLAUDE.md or AGENTS.md names on its 'keep <folder> current' line. If this turn changed files or made decisions and that folder's worklog and the active initiative's work.md weren't updated to match, block with the reason 'update the planning docs before finishing', naming the folder. Otherwise allow. Judge only the record: never block because the work is unfinished, background tasks are running, or the agent is waiting on the user, or because the folder has another name. Never block a turn that changed nothing durable.",
             "timeout": 30
           }
         ]

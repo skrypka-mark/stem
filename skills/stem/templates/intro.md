@@ -7,7 +7,7 @@
 ╚══════╝   ╚═╝   ╚══════╝╚═╝     ╚═╝
 ```
 
-v0.1.0 · one skill · probe + gate · stem.cooking
+v0.1.1 · one skill · probe + gate · stem.cooking
 
 Plan first, build clean, keep every change on the record. Work gets
 sized before it starts — Quick, Standard, Initiative, or High-stakes —
