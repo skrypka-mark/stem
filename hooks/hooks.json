@@ -5,7 +5,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "node -e \"console.log(JSON.stringify({hookSpecificOutput:{additionalContext:'This project runs a written engineering discipline: size the work before doing it, append a docs/planning/worklog.md entry for every change, keep the active initiative work.md current, and refresh planning docs before ending or compacting.'}}))\"",
+            "command": "node -e \"console.log(JSON.stringify({hookSpecificOutput:{additionalContext:'This project runs a written engineering discipline: size the work before doing it, append a planning worklog entry for every change (docs/planning/worklog.md, or the folder the stem block in GEMINI.md or AGENTS.md names), keep the active initiative work.md current, and refresh planning docs before ending or compacting.'}}))\"",
             "timeout": 10000
           }
         ]

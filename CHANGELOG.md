@@ -4,6 +4,15 @@ Release notes for distributed versions. The per-change journal lives in
 `docs/planning/worklog.md` — this file records what users get, version
 by version.
 
+## [0.1.1] — 2026-11-20
+
+- Hooks hold a project to its own planning folder: the one the stem
+  block names, `docs/planning/` by default. Before, a project that
+  chose another path at first run was blocked at every turn's end.
+- The Stop and PreCompact prompts judge only the planning record. They
+  no longer block a turn for unfinished work, running background tasks
+  or a question waiting on the user.
+
 ## [0.1.0] — 2026-08-05
 
 First buildable version.

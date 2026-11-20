@@ -6,6 +6,10 @@ allowed-tools: Read(${CLAUDE_SKILL_DIR}/**)
 
 # stem — how work happens here
 
+`docs/planning/` below means the project's planning folder: the one
+the managed block's pointer line names, or `docs/planning/` when it
+names none.
+
 ## On arrival
 
 Open with the intro template (`templates/intro.md`), verbatim: the

@@ -11,6 +11,14 @@ No hook here runs a shipped script or binary. Every action is either a
 prompt evaluation or an inline one-liner you can read in full above —
 nothing executes that you have not seen.
 
+Every hook checks the project's planning folder: `docs/planning/`, or
+the folder the stem block in `CLAUDE.md`, `AGENTS.md` or `GEMINI.md`
+names on its "keep <folder> current" line. A project that chose
+another path at first run is held to that path, never to
+`docs/planning/`. The prompt hooks judge only that record. Unfinished
+work, background tasks or a question waiting on the user never block
+a turn by themselves.
+
 ## Claude Code — `claude-code.hooks.json` (blocking)
 
 Merge into `.claude/settings.json` (project) or `~/.claude/settings.json`

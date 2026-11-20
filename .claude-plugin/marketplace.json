@@ -10,7 +10,7 @@
     {
       "name": "stem",
       "description": "One skill carrying the whole discipline, two agents, per-host session protection. Plan first, build clean, keep every change on the record. stem.cooking",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "author": {
         "name": "Mark Skrypka"
       },
